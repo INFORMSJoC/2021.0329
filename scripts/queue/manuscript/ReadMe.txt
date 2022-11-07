@@ -1,0 +1,1 @@
+AdapQ is the main script to test under the MM1 queue example of the manuscript.
