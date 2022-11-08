@@ -27,3 +27,15 @@
 
 
 ## Figures in online supplement
+
+*   Figure of Online Supplement's Section 5.2 Case (i): obtained by running "scripts/d1/AdapMSE.m" (main part: Lines 66-95 and 265-328)
+
+![OSFigure11](OS52Case1(1).png)
+![OSFigure12](OS52Case1(1).png)
+
+*   Figure of Online Supplement's Section 5.2 Case (ii): obtained by running "scripts/d1/AdapMSE.m" (main part: Lines 36-65 and 98-162)
+
+![OSFigure21](OS52Case2(1).png)
+![OSFigure22](OS52Case2(1).png)
+
+
