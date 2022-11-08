@@ -36,21 +36,9 @@ The goal of this repository is to illustrate the the convergence behaviors of st
 *   “scripts/d10”: testing the rates of maximal IMSE and IPFS and comparing the random design with the **Adaptive MSE procedure** in the **ten**\-dimensional benchmark function examples.
 *   “scripts/queue”: testing the rates of maximal IMSE and IPFS and showing how the theory can help decide the sample size to achieve a target precision in the **MM1 queue**\-dimensional benchmark function examples.
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+## Results
 
-![Figure 1](results/Figure1(1).pdf)
-
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/sum-test.png)
-
-
-## Ongoing Development
-
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
+The README in the "results" subdirectory tells the detailed script to obtain each figure.
 
 ## Support
 
