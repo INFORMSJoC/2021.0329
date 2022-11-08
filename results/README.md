@@ -67,8 +67,8 @@ Overall, the scripts to obtain different figures are similar.
 
 *   Figure of **Online Supplement's Section 5.2 Case (viii)**: obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 36-65 and 93-161**)
 
-![OSFigure71](OS52Case7(1).png)
-![OSFigure72](OS52Case7(2).png)
+![OSFigure81](OS52Case8(1).png)
+![OSFigure82](OS52Case8(2).png)
 
 
 ## Table in online supplement
