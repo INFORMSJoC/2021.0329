@@ -1,7 +1,7 @@
 
 clearvars,clc;
 
-% fun: Griewangk
+% fun: Griewank
 fun = @testfun2;
 desig = 1:10; desig = desig'; 
 nd = length(desig);  %location of design point
