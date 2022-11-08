@@ -39,7 +39,7 @@ The goal of this repository is to illustrate the the convergence behaviors of st
 Figure 1 in the paper shows the results of the multiplication test with different
 values of K using `gcc` 7.5 on an Ubuntu Linux box.
 
-![Figure 1](results/Figure 1(1).pdf)
+![Figure 1](results/Figure1(1).pdf)
 
 Figure 2 in the paper shows the results of the sum test with different
 values of K using `gcc` 7.5 on an Ubuntu Linux box.
