@@ -1,3 +1,5 @@
+Overall, the scripts to obtain different figures are similar.
+
 ## Figures in manuscript
 *   “Figure 1”: obtained by running "scripts/d1/AdapMSE.m" (main part: Lines 23-35 and 163-264)
 
