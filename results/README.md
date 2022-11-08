@@ -69,5 +69,7 @@
 ![OSFigure72](OS52Case7(2).png)
 
 
+## Table in online supplement
 
+*   Table of Online Supplement's Section 5.3: obtained by running "scripts/queue/online supplement/Queue_pred.m"
 
