@@ -16,7 +16,7 @@ Overall, the scripts to obtain different figures are similar.
 ![Figure 31](Figure3(1).png)
 ![Figure 32](Figure3(2).png)
 
-*   “**Figure 4**”: obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 23-36 and 165-258**)
+*   “**Figure 4**”: obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 22-35 and 164-257**)
 
 ![Figure 41](Figure4(1).png)
 ![Figure 42](Figure4(2).png)
