@@ -19,5 +19,11 @@
 ![Figure 41](Figure4(1).png)
 ![Figure 42](Figure4(2).png)
 
+*   “Figures 5 and 6”: obtained by running "scripts/queue/manuscript/AdapQ.m" 
+
+![Figure 5](Figure5.png)
+
+![Figure 6](Figure6.png)
+
 
 ## Figures in online supplement
