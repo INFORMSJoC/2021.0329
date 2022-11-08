@@ -38,4 +38,26 @@
 ![OSFigure21](OS52Case2(1).png)
 ![OSFigure22](OS52Case2(1).png)
 
+*   Figure of Online Supplement's Section 5.2 Case (iii): obtained by running "scripts/d2/Adap12D.m" (main part: Lines 38-67 and 73-140)
+
+![OSFigure31](OS52Case3(1).png)
+![OSFigure32](OS52Case3(1).png)
+
+*   Figure of Online Supplement's Section 5.2 Case (iv): obtained by running "scripts/d3/Adap13D.m" (main part: Lines 36-66 and 175-241)
+
+![OSFigure41](OS52Case4(1).png)
+![OSFigure42](OS52Case4(1).png)
+
+*   Figure of Online Supplement's Section 5.2 Case (v): obtained by running "scripts/d1/AdapMSE2.m" (main part: Lines 66-89 and 269-338)
+
+![OSFigure51](OS52Case5(1).png)
+![OSFigure52](OS52Case5(1).png)
+
+*   Figure of Online Supplement's Section 5.2 Case (vi): obtained by running "scripts/d1/AdapMSE2.m" (main part: Lines 36-65 and 93-160)
+
+![OSFigure61](OS52Case6(1).png)
+![OSFigure62](OS52Case6(1).png)
+
+
+
 
