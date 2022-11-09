@@ -40,7 +40,3 @@ The goal of this repository is to illustrate the the convergence behaviors of st
 
 The README in the "results" subdirectory tells the detailed script to obtain each result of the numerical experiment.
 
-## Support
-
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
