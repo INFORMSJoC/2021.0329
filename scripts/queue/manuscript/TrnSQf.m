@@ -2,7 +2,6 @@ function [ TPmse1,TPpfs1,TPmse2,TPpfs2,TPmse3,TPpfs3,TPmse4,TPpfs4 ] ...
     = TrnSQf( m,desig,span1,span2,Lm,testa,Del,n0,Truva,cu,U )
 %TrnSQf returns the imse and ipfs under the truncated normal sampling
 %for the queue example
-varliml = 0.0004;  % avoid abnormal variance estimate
 rng(1000)
 
 nm = length(m); nd = size(desig,1); xd = size(desig,2); sercost = cu*desig;
@@ -14,6 +13,7 @@ TPmse1 = zeros(nm,1); TPpfs1 = zeros(nm,1);    % number of covariates layer
 TPmse2 = zeros(nm,1); TPpfs2 = zeros(nm,1);    % number of covariates layer
 TPmse3 = zeros(nm,1); TPpfs3 = zeros(nm,1);    % number of covariates layer
 TPmse4 = zeros(nm,1); TPpfs4 = zeros(nm,1);    % number of covariates layer
+varliml = 0.0004;  % avoid abnormal variance estimate
 
 for j = 1:nm    % number of covariates layer
     j
