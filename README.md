@@ -19,8 +19,8 @@ Below is the BibTex for citing this version of the code.
   publisher =     {INFORMS Journal on Computing},
   title =         {Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates},
   year =          {2022},
-  doi =           {test},
-  url =           {https://github.com/INFORMSJoC/JoCTemplate},
+  doi =           {unknown currently},
+  url =           {https://github.com/INFORMSJoC/2021-0329},
 }  
 ```
 
