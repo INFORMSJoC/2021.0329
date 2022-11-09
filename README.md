@@ -38,5 +38,5 @@ The goal of this repository is to illustrate the the convergence behaviors of st
 
 ## Results
 
-The README in the "results" subdirectory tells the detailed script to obtain each result of the numerical experiment.
+The README.md in the "results" subdirectory tells the detailed script to obtain each result of the numerical experiment.
 
