@@ -2,7 +2,6 @@ function [ UPmse1,UPpfs1,UPmse2,UPpfs2,UPmse3,UPpfs3,UPmse4,UPpfs4 ] ...
     = UniSQf( m,desig,span1,span2,Lm,testa,Del,n0,cu,U )
 %UniSQf returns the imse and ipfs under the uniform sampling for the queue
 %example
-varliml = 0.0004;  % avoid abnormal variance estimate
 rng(1000)
 
 nm = length(m); nd = size(desig,1); xd = size(desig,2); sercost = cu*desig;
@@ -10,6 +9,7 @@ UPmse1 = zeros(nm,1); UPpfs1 = zeros(nm,1);    % number of covariates layer
 UPmse2 = zeros(nm,1); UPpfs2 = zeros(nm,1);    % number of covariates layer
 UPmse3 = zeros(nm,1); UPpfs3 = zeros(nm,1);    % number of covariates layer
 UPmse4 = zeros(nm,1); UPpfs4 = zeros(nm,1);    % number of covariates layer
+varliml = 0.0004;  % avoid abnormal variance estimate
 for j = 1:nm    % number of covariates layer
     j
     Umc = m(j);
