@@ -14,7 +14,7 @@ Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covar
 Below is the BibTex for citing this version of the code.
 
 ```
-@article{CacheTest,
+@article{li2022,
   author =        {C. Li, S. Gao and J. Du},
   publisher =     {INFORMS Journal on Computing},
   title =         {Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates},
