@@ -28,7 +28,7 @@ Below is the BibTex for citing this version of the code.
 
 The goal of this repository is to illustrate the the convergence behaviors of stochastic kriging-assisted simulation with random covariates.
 
-## Replicating
+## Scripts
 
 *   “scripts/d1”:  testing the rates of maximal IMSE and IPFS under the random sampling and comparing the random design with the Adaptive MSE procedure in the **one**\-dimensional benchmark function examples,
 *   “scripts/d2”:  testing the rates of maximal IMSE and IPFS under the random sampling and comparing the random design with the Adaptive MSE procedure in the **two**\-dimensional benchmark function examples,
