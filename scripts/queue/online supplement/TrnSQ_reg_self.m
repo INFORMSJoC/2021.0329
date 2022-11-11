@@ -6,7 +6,7 @@ function [ TPmse1_all,TPmse2_all,TPmse3_all,...
 %TrnSQ_reg_self predicts the number of design points for a target precision 
 % and returns the imse and ipfs under the truncated normal sampling
 
-rng(700)
+rng(700) 
 nm = length(m); nd = size(desig,1); xd = size(desig,2); sercost = cu*desig;
 Tmu = span2+span1/2;
 pd = makedist('Normal','mu',Tmu,'sigma',Truva); 
@@ -40,7 +40,7 @@ for j = 1:nm    % number of covariates layer
     TPmse2 = zeros(num_subsets(j),1);     % number of covariates layer
     TPmse3 = zeros(num_subsets(j),1);     % number of covariates layer
     TPmse4 = zeros(num_subsets(j),1);     % number of covariates layer
-    for subseti = 1:num_subsets(j)
+    for subseti = 1:num_subsets(j)  % the original result reported in the paper is obained using parfor
         TGM1 = cell(nd,1); KernParac1 = cell(nd,1); coinvc1 = cell(nd,1);
         TGM2 = cell(nd,1); KernParac2 = cell(nd,1); coinvc2 = cell(nd,1);
         TGM3 = cell(nd,1); KernParac3 = cell(nd,1); coinvc3 = cell(nd,1);
@@ -207,7 +207,7 @@ pd = makedist('Normal','mu',Tmu,'sigma',Truva);
 Bd1 = span2; Bd2 = span2+span1;
 Tpd = truncate(pd,Bd1,Bd2);
 
-TMmse1 = zeros(Lm,1); 
+TMmse1 = zeros(Lm,1); % the original result reported in the paper is obained using parfor
 for mi = 1:Lm    % number of random covariates layer
     mi
     Ttestx = random(Tpd,testa,1);      % test covariate generation for PFS
