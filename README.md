@@ -22,7 +22,7 @@ Below is the BibTex for citing this version of the code.
   title =         {Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates},
   year =          {2022},
   doi =           {unknown currently},
-  url =           {https://github.com/INFORMSJoC/2021-0329},
+  url =           {https://github.com/INFORMSJoC/2021.0329},
 }  
 ```
 
