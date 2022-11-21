@@ -50,37 +50,37 @@ The **online supplement** of this paper is also in this subdirectory. The follow
 
 #### Figures in manuscript:
 
-*   “**Figure 1**” of the manuscript (i.e., results/Figure1(1).png and results/Figure1(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 23-35 and 163-264**)
+*   “**Figure 1**” of the manuscript (i.e., results/Figure1(1).png and results/Figure1(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 23-35 and 163-264**) in the "scripts/d1" folder
 
-*   “**Figure 2**” of the manuscript (i.e., results/Figure2(1).png and results/Figure2(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 23-35 and 164-268**)
+*   “**Figure 2**” of the manuscript (i.e., results/Figure2(1).png and results/Figure2(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 23-35 and 164-268**) in the "scripts/d1" folder
 
-*   “**Figure 3**” of the manuscript (i.e., results/Figure3(1).png and results/Figure3(2).png of this repository): obtained by running "**scripts/d3/Adap13D.m**" (main part: **Lines 23-35 and 73-174**)
+*   “**Figure 3**” of the manuscript (i.e., results/Figure3(1).png and results/Figure3(2).png of this repository): obtained by running "**scripts/d3/Adap13D.m**" (main part: **Lines 23-35 and 73-174**) in the "scripts/d3" folder
 
-*   “**Figure 4**” of the manuscript (i.e., results/Figure4(1).png and results/Figure4(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 22-35 and 164-257**)
+*   “**Figure 4**” of the manuscript (i.e., results/Figure4(1).png and results/Figure4(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 22-35 and 164-257**) in the "scripts/d10" folder
 
-*   “**Figures 5 and 6**” of the manuscript (i.e., results/Figure5.png and results/Figure6.png of this repository): obtained by running "**scripts/queue/manuscript/AdapQ.m**" 
+*   “**Figures 5 and 6**” of the manuscript (i.e., results/Figure5.png and results/Figure6.png of this repository): obtained by running "**scripts/queue/manuscript/AdapQ.m**" in the "scripts/queue/manuscript" folder
 
 #### Figures in online supplement:
 
-*   “**Figure 3**” of the online supplement (i.e., results/OS52Case1(1).png and results/OS52Case1(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 66-95 and 265-328**)
+*   “**Figure 3**” of the online supplement (i.e., results/OS52Case1(1).png and results/OS52Case1(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 66-95 and 265-328**) in the "scripts/d1" folder
 
-*   “**Figure 4**” of the online supplement (i.e., results/OS52Case2(1).png and results/OS52Case2(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 36-65 and 98-162**)
+*   “**Figure 4**” of the online supplement (i.e., results/OS52Case2(1).png and results/OS52Case2(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 36-65 and 98-162**) in the "scripts/d1" folder
 
-*   “**Figure 5**” of the online supplement (i.e., results/OS52Case3(1).png and results/OS52Case3(2).png of this repository): obtained by running "**scripts/d2/Adap12D.m**" (main part: **Lines 38-67 and 73-140**)
+*   “**Figure 5**” of the online supplement (i.e., results/OS52Case3(1).png and results/OS52Case3(2).png of this repository): obtained by running "**scripts/d2/Adap12D.m**" (main part: **Lines 38-67 and 73-140**) in the "scripts/d2" folder
 
-*   “**Figure 6**” of the online supplement (i.e., results/OS52Case4(1).png and results/OS52Case4(2).png of this repository): obtained by running "**scripts/d3/Adap13D.m**" (main part: **Lines 36-66 and 175-241**)
+*   “**Figure 6**” of the online supplement (i.e., results/OS52Case4(1).png and results/OS52Case4(2).png of this repository): obtained by running "**scripts/d3/Adap13D.m**" (main part: **Lines 36-66 and 175-241**) in the "scripts/d3" folder
 
-*   “**Figure 7**” of the online supplement (i.e., results/OS52Case5(1).png and results/OS52Case5(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 66-89 and 269-338**)
+*   “**Figure 7**” of the online supplement (i.e., results/OS52Case5(1).png and results/OS52Case5(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 66-89 and 269-338**) in the "scripts/d1" folder
 
-*   “**Figure 8**” of the online supplement (i.e., results/OS52Case6(1).png and results/OS52Case6(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 36-65 and 93-160**)
+*   “**Figure 8**” of the online supplement (i.e., results/OS52Case6(1).png and results/OS52Case6(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 36-65 and 93-160**) in the "scripts/d1" folder
 
-*   “**Figure 9**” of the online supplement (i.e., results/OS52Case7(1).png and results/OS52Case7(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 66-90 and 261-329**)
+*   “**Figure 9**” of the online supplement (i.e., results/OS52Case7(1).png and results/OS52Case7(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 66-90 and 261-329**) in the "scripts/d10" folder
 
-*   “**Figure 10**” of the online supplement (i.e., results/OS52Case8(1).png and results/OS52Case8(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 36-65 and 93-161**)
+*   “**Figure 10**” of the online supplement (i.e., results/OS52Case8(1).png and results/OS52Case8(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 36-65 and 93-161**) in the "scripts/d10" folder
 
 #### Table in online supplement:
 
-*   Table of **Online Supplement's Section 5.3**: obtained by running "**scripts/queue/online supplement/Queue_pred.m**"
+*   Table of **Online Supplement's Section 5.3**: obtained by running "**scripts/queue/online supplement/Queue_pred.m**" in the "scripts/queue/online supplement" folder
 
 
 
