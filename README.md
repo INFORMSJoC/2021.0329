@@ -13,8 +13,6 @@ Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covar
 
 To cite this software, please cite the [paper](https://doi.org/) using its DOI and the software itself using the following DOI.
 
-[![DOI](https://zenodo.org/badge/10.5281/zenodo.7194693.svg)](https://zenodo.org/badge/10.5281/zenodo.7194693.svg)
-
 Below is the BibTex for citing this version of the code.
 
 ```
