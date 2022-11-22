@@ -1,104 +1,86 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# CacheTest
+# 2021.0329
 
 This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
-The software and data in this repository are a snapshot of the software and data
+The scripts in this repository are a snapshot of the scripts
 that were used in the research reported on in the paper 
-[This is a Template](https://doi.org/10.1287/ijoc.2019.0934) by T. Ralphs. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
-
-**Important: This code is being developed on an on-going basis at 
-https://github.com/tkralphs/JoCTemplate. Please go there if you would like to
-get a more recent version or would like support**
+Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates by C. Li, S. Gao and J. Du. 
 
 ## Cite
 
-To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0934) using its DOI and the software itself, using the following DOI.
-
-[![DOI](https://zenodo.org/badge/285853815.svg)](https://zenodo.org/badge/latestdoi/285853815)
+To cite this software, please cite the [paper](https://doi.org/) using its DOI and the software itself using the following DOI.
 
 Below is the BibTex for citing this version of the code.
 
 ```
-@article{CacheTest,
-  author =        {T. Ralphs},
+@article{li2022,
+  author =        {C. Li, S. Gao and J. Du},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest} Version v1.0},
-  year =          {2020},
-  doi =           {10.5281/zenodo.3977566},
-  url =           {https://github.com/INFORMSJoC/JoCTemplate},
+  title =         {Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates},
+  year =          {2022},
+  doi =           {unknown currently},
+  url =           {https://github.com/INFORMSJoC/2021.0329},
 }  
 ```
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+The goal of this repository is to illustrate the the convergence behaviors of stochastic kriging-assisted simulation with random covariates.
 
-## Building
+## Requirements
 
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
+For this project, we use Matlab. The user should respect the license of the used sotfware.
 
-```
-make mult
-```
+## Repository Structure
 
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
+### Scripts
 
-```
-make clean
-make sum
-```
+*   **"scripts/d1"** folder:  testing the rates of maximal IMSE and IPFS under the random sampling and comparing the random design with the Adaptive MSE procedure in the **one**\-dimensional benchmark function examples,
+*   **"scripts/d2"** folder:  testing the rates of maximal IMSE and IPFS under the random sampling and comparing the random design with the Adaptive MSE procedure in the **two**\-dimensional benchmark function examples,
+*   **"scripts/d3"** folder:  testing the rates of maximal IMSE and IPFS under the random sampling and comparing the random design with the Adaptive MSE procedure in the **three**\-dimensional benchmark function examples,
+*   **"scripts/d10"** folder: testing the rates of maximal IMSE and IPFS under the random sampling and comparing the random design with the Adaptive MSE procedure in the **ten**\-dimensional benchmark function examples.
+*   **"scripts/queue"** folder: testing the rates of maximal IMSE and IPFS under the random sampling and showing how the theory can help decide the sample size to achieve a target precision in the **M/M/1 queue** example.
 
-Be sure to make clean before building a different version of the code.
+### Results
 
-## Results
+The **online supplement** of this paper is also in this subdirectory. The following tells the corresponding script for each result of the numerical experiment.
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+#### Figures in manuscript:
 
-![Figure 1](results/mult-test.png)
+*   “**Figure 1**” of the manuscript (i.e., results/Figure1(1).png and results/Figure1(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 23-35 and 163-264**) in the "scripts/d1" folder
 
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+*   “**Figure 2**” of the manuscript (i.e., results/Figure2(1).png and results/Figure2(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 23-35 and 164-268**) in the "scripts/d1" folder
 
-![Figure 1](results/sum-test.png)
+*   “**Figure 3**” of the manuscript (i.e., results/Figure3(1).png and results/Figure3(2).png of this repository): obtained by running "**scripts/d3/Adap13D.m**" (main part: **Lines 23-35 and 73-174**) in the "scripts/d3" folder
 
-## Replicating
+*   “**Figure 4**” of the manuscript (i.e., results/Figure4(1).png and results/Figure4(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 22-35 and 164-257**) in the "scripts/d10" folder
 
-To replicate the results in [Figure 1](results/mult-test), do either
+*   “**Figures 5 and 6**” of the manuscript (i.e., results/Figure5.png and results/Figure6.png of this repository): obtained by running "**scripts/queue/manuscript/AdapQ.m**" in the "scripts/queue/manuscript" folder
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
+#### Figures in online supplement:
 
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
+*   “**Figure 3**” of the online supplement (i.e., results/OS52Case1(1).png and results/OS52Case1(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 66-95 and 265-328**) in the "scripts/d1" folder
 
-## Ongoing Development
+*   “**Figure 4**” of the online supplement (i.e., results/OS52Case2(1).png and results/OS52Case2(2).png of this repository): obtained by running "**scripts/d1/AdapMSE.m**" (main part: **Lines 36-65 and 98-162**) in the "scripts/d1" folder
 
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
+*   “**Figure 5**” of the online supplement (i.e., results/OS52Case3(1).png and results/OS52Case3(2).png of this repository): obtained by running "**scripts/d2/Adap12D.m**" (main part: **Lines 38-67 and 73-140**) in the "scripts/d2" folder
 
-## Support
+*   “**Figure 6**” of the online supplement (i.e., results/OS52Case4(1).png and results/OS52Case4(2).png of this repository): obtained by running "**scripts/d3/Adap13D.m**" (main part: **Lines 36-66 and 175-241**) in the "scripts/d3" folder
 
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+*   “**Figure 7**” of the online supplement (i.e., results/OS52Case5(1).png and results/OS52Case5(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 66-89 and 269-338**) in the "scripts/d1" folder
+
+*   “**Figure 8**” of the online supplement (i.e., results/OS52Case6(1).png and results/OS52Case6(2).png of this repository): obtained by running "**scripts/d1/AdapMSE2.m**" (main part: **Lines 36-65 and 93-160**) in the "scripts/d1" folder
+
+*   “**Figure 9**” of the online supplement (i.e., results/OS52Case7(1).png and results/OS52Case7(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 66-90 and 261-329**) in the "scripts/d10" folder
+
+*   “**Figure 10**” of the online supplement (i.e., results/OS52Case8(1).png and results/OS52Case8(2).png of this repository): obtained by running "**scripts/d10/Adap10D.m**" (main part: **Lines 36-65 and 93-161**) in the "scripts/d10" folder
+
+#### Table in online supplement:
+
+*   Table of **Online Supplement's Section 5.3**: obtained by running "**scripts/queue/online supplement/Queue_pred.m**" in the "scripts/queue/online supplement" folder
+
+
+
