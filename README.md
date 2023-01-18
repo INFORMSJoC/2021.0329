@@ -7,11 +7,11 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 
 The scripts in this repository are a snapshot of the scripts
 that were used in the research reported on in the paper 
-Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates by C. Li, S. Gao and J. Du. 
+[Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates](https://doi.org/10.1287/ijoc.2022.1263) by C. Li, S. Gao and J. Du. 
 
 ## Cite
 
-To cite this software, please cite the [paper](https://doi.org/) using its DOI and the software itself using the following DOI.
+To cite this software, please cite the paper -- [Convergence Analysis of Stochastic Kriging-Assisted Simulation with Random Covariates](https://doi.org/10.1287/ijoc.2022.1263) -- using its DOI and the software itself using the following DOI.
 
 Below is the BibTex for citing this version of the code.
 
